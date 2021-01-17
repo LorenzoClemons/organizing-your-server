@@ -1,8 +1,8 @@
-const express = require('express')
-const { isWebUri } = require('valid-url')
-const xss = require('xss')
-const logger = require('../logger')
-const BookarksService = require('./bookmarks-service')
+// const express = require('express')
+// const { isWebUri } = require('valid-url')
+// const xss = require('xss')
+// const logger = require('../logger')
+// const BookarksService = require('./bookmarks-service')
 
 const bookmarksRouter = express.Router()
 const bodyParser = express.json()
