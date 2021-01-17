@@ -6,9 +6,9 @@ const helmet = require('helmet')
 const { NODE_ENV } = require('./config')
 const validateBearerToken = require('./validate-bearer-token')
 const errorHandler = require('./error-handler')
-const bookmarksRouter = require('./bookmarks/bookmarks-router')
+// const bookmarksRouter = require('./bookmarks/bookmarks-router')
 
-const app = express()
+// const app = express()
 
 app.use(morgan((NODE_ENV === 'production') ? 'tiny' : 'common', {
   skip: () => NODE_ENV === 'test'
